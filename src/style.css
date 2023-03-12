@@ -1,0 +1,57 @@
+:root {
+  --primary-color: rgb(255, 100, 155);
+}
+
+body {
+  background-color: rgb(52, 52, 52);
+}
+
+.container {
+  background-color: rgb(75, 75, 75);
+  padding: 5%;
+  box-shadow: 1px 1px 20px rgb(67, 67, 67);
+}
+.headingbar {
+  background-color: rgb(213, 213, 213);
+  padding: 0.5%;
+  text-align: center;
+}
+
+.headingbar a {
+  padding: 1%;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.headingbar a:hover {
+  transition: all 200ms ease-in-out;
+  color: var(--primary-color);
+}
+
+.headingbar strong {
+  font-weight: 400;
+}
+
+header h4 {
+  color: rgb(255, 100, 155);
+}
+
+header img {
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgb(62, 62, 62);
+}
+
+header a {
+  text-decoration: none;
+}
+
+footer a {
+  color: var(--primary-color);
+}
+
+footer a:hover {
+  transition: all 200ms ease-in-out;
+  color: pink;
+}
