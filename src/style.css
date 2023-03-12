@@ -81,11 +81,9 @@ footer a:hover {
 /*About Page*/
 
 .box-container {
+  text-align: center;
   padding: 0% 10%;
   background: rgb(124, 124, 124);
-  width: 1200px;
-  border: 3px solid pink;
-  box-shadow: 1px 1px 20px pink;
 }
 
 .box-container hr {
@@ -94,8 +92,15 @@ footer a:hover {
 
 .container-about {
   background-color: #ffd4e3;
-  padding: 5%;
+  padding: 1%;
   box-shadow: 1px 1px 5px rgb(67, 67, 67);
+}
+
+.projects-container {
+  padding: 0% 7%;
+  background-color: rgb(82, 82, 82);
+  border: 3px solid pink;
+  box-shadow: 1px 1px 20px pink;
 }
 
 .img-page button {
@@ -116,4 +121,13 @@ footer a:hover {
 .img-page img {
   border-radius: 20px;
   box-shadow: 1px 2px 20px rgb(53, 53, 53);
+}
+
+.img-page img:hover {
+  transition: all 200ms ease-in-out;
+  filter: brightness(1.2);
+}
+
+.img-page h6 {
+  color: aliceblue;
 }
