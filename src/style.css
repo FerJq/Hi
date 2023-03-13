@@ -149,7 +149,7 @@ video {
 }
 
 .margin-data {
-  padding: 0% 5%;
+  margin: 0 auto;
 }
 .main--container {
   padding: 0% 10%;
@@ -162,7 +162,7 @@ video {
   box-shadow: 2px 2px 20px rgb(22, 22, 22);
 }
 .contact-main-container {
-  padding: 0% 10%;
+  padding: 0% 2%;
   background-color: var(--background-color);
   border: 3px solid pink;
   box-shadow: 1px 1px 20px pink;
@@ -177,8 +177,8 @@ video {
   background-color: var(--primary-color);
   border-radius: 120px;
   color: pink;
-  font-size: 30px;
-  padding: 5px 14px;
+  font-size: 15px;
+  padding: 5px 10px;
   margin: 0 20px;
   box-shadow: var(--shadow-box);
 }
@@ -186,11 +186,10 @@ video {
 .icons:hover {
   transition: all 200ms ease-in-out;
   background-color: pink;
-  color: var(--primary-color);
 }
 
 .icons-container a:hover {
-  color: rgb(255, 255, 255);
+  color: black;
   transition: 200ms all ease-in-out;
 }
 
@@ -211,6 +210,7 @@ video {
 }
 
 .info-contact {
+  margin: 0 auto;
   background-color: rgb(63, 63, 63);
   border-radius: 20px;
   box-shadow: var(--shadow-box);
