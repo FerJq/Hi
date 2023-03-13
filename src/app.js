@@ -8,4 +8,9 @@ function background_theme() {
   }
 }
 
-setInterval(background_theme, 1000);
+setInterval(background_theme, 5000);
+
+let email_submit = document.getElementById("submit");
+email_submit.addEventListener("click", function () {
+  alert("We'll be in touch!");
+});

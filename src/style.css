@@ -18,7 +18,7 @@ body {
   );
   background-position: left;
   background-size: 300%;
-  transition: background-position 2s;
+  transition: background-position 5s;
 }
 
 .color-theme {
@@ -112,9 +112,25 @@ footer a:hover {
 }
 
 .container-about {
-  background-color: #ffd4e3;
+  background-color: white;
   padding: 1%;
   box-shadow: 1px 1px 5px rgb(67, 67, 67);
+}
+
+.main-title {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.main-title h1 {
+  transition: all 200ms ease-in-out;
+  text-shadow: 15px 5px 20px var(--primary-color);
+}
+
+.main-title h1:hover {
+  transition: all 200ms ease-in-out;
+  color: var(--primary-color);
 }
 
 .projects-container {
@@ -145,8 +161,8 @@ footer a:hover {
 }
 
 .img-page img:hover {
-  transition: all 200ms ease-in-out;
   filter: brightness(1.2);
+  transition: filter 1s;
 }
 
 .img-page h6 {
