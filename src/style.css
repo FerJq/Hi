@@ -6,9 +6,16 @@ body {
   background-color: rgb(52, 52, 52);
 }
 
+.index-video {
+  box-shadow: 1px 1px 20px rgb(93, 93, 93);
+}
+
+.index-info-container {
+  padding: 0% 5%;
+}
+
 .container {
   background-color: rgb(75, 75, 75);
-  padding: 5%;
   box-shadow: 1px 1px 20px rgb(67, 67, 67);
 }
 .headingbar {
@@ -78,6 +85,7 @@ footer a:hover {
   transition: all 200ms ease-in-out;
   color: pink;
 }
+
 /*About Page*/
 
 .box-container {
