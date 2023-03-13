@@ -171,6 +171,7 @@ video {
 
 .info-contact a {
   color: aquamarine;
+  font-size: 22px;
 }
 
 .info-contact a:hover {
