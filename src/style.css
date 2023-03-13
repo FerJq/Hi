@@ -167,6 +167,11 @@ video {
   padding: 1%;
 }
 
+.icons-container a:hover {
+  color: pink;
+  transition: 200ms all ease-in-out;
+}
+
 .info-contact {
   background-color: rgb(63, 63, 63);
   border-radius: 20px;
