@@ -329,6 +329,12 @@ form button:hover {
   box-shadow: var(--shadow-box);
   border-radius: 20px;
   background-color: pink;
+  transition: all 200ms ease-in-out;
+}
+
+.about-images:hover {
+  transition: all 200ms ease-in-out;
+  transform: scale(110%);
 }
 
 section p {
