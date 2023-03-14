@@ -344,6 +344,11 @@ section p {
   border-radius: 12px;
 }
 
+section img {
+  box-shadow: var(--shadow-box);
+  border-radius: 5px;
+}
+
 @media (max-width: 700px) {
   .about-images {
     display: none;
