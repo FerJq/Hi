@@ -139,8 +139,6 @@ footer a:hover {
 
 .projects-container {
   padding: 0% 7%;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/071/558/original/PngItemopacity_5055229.png?1678765322");
-  background-repeat: repeat;
   background-color: var(--background-color);
   border: 3px solid pink;
   box-shadow: 1px 1px 20px pink;
@@ -291,7 +289,7 @@ form button:hover {
 .about-container {
   margin: 0 auto;
   padding: 0 auto;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/071/558/original/PngItemopacity_5055229.png?1678765322");
+
   background-color: var(--background-color);
   border: 3px solid pink;
   box-shadow: 1px 1px 20px pink;
