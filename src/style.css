@@ -321,6 +321,7 @@ form button:hover {
 }
 
 .about-images {
+  width: 600px;
   box-shadow: var(--shadow-box);
   border-radius: 20px;
   background-color: pink;
