@@ -8,7 +8,7 @@ function background_theme() {
   }
 }
 
-setInterval(background_theme, 5000);
+setInterval(background_theme, 3000);
 
 let email_submit = document.getElementById("submit");
 email_submit.addEventListener("click", function () {

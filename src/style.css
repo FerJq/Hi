@@ -280,3 +280,32 @@ form button {
 form button:hover {
   transform: translateY(-10px);
 }
+
+/*About*/
+.about-container {
+  padding: 0% 1%;
+  background-color: var(--background-color);
+  border: 3px solid pink;
+  box-shadow: 1px 1px 20px pink;
+}
+.rows-about h3 {
+  text-align: left;
+  color: var(--primary-color);
+}
+
+.rows-about h2 {
+  text-align: left;
+}
+
+.rows-about p {
+  color: var(--background-color);
+  background: pink;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.about-images {
+  box-shadow: var(--shadow-box);
+  border-radius: 20px;
+  background-color: pink;
+}
