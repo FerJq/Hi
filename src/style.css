@@ -114,6 +114,12 @@ footer a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  box-shadow: var(--shadow-box);
+}
+
+.container-about:hover {
+  filter: brightness(200%);
+  transition: filter 3s;
 }
 
 .main-title {
