@@ -17,7 +17,7 @@ body {
     rgb(229, 248, 250) 90%
   );
   background-position: left;
-  background-size: 300%;
+  background-size: 250%;
   transition: background-position 1s;
 }
 
